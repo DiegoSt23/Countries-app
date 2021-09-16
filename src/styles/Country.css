@@ -1,0 +1,114 @@
+.country-info-container {
+  width: 80%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: 'Urbanist', sans-serif;
+  margin-top: 80px;
+}
+.flag-name-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(228, 148, 0);
+  border-radius: 15px;
+  padding: 20px;
+}
+.flag-name-container h1 {
+  color: black;
+}
+.main-flag-container {
+  width: 70%;
+}
+.main-flag {
+  width: 100%;
+  border-radius: 15px;
+}
+.main-details-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 20px;
+  transition: all 0.5s ease;
+  background-color: rgb(34, 54, 61);
+}
+.main-details-container h3 {
+  color: white;
+}
+.details-sub-container {
+  width: 100%;
+  display: flex;
+}
+.details {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon2 {
+  color: white;
+  font-size: 1.5rem;
+}
+.icon2:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error-message h3 {
+  color: black;
+}
+
+/* ////////////////responsive//////////////// */
+
+@media screen and (max-width: 992px) {
+  .country-info-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  .main-details-container {
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .flag-name-container {
+    width: 90%;
+  }
+  .buttons-container {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .country-info-container {    
+    font-size: 0.8rem;    
+  } 
+}
