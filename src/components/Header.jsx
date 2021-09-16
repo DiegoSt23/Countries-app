@@ -7,7 +7,7 @@ import { faTimes, faSearch} from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   const history = useHistory();
   const [value1, setValue1] = useState("");
-  const [menuStatus, setMenuStatus] = useState(true);
+  const [menuStatus, setMenuStatus] = useState(false);
 
   const handleSearchCountry = () => {
     if (value1) {
